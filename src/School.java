@@ -4,8 +4,8 @@ public class School {
         Person student = new Student("Maciej", "Nieuczalski", "Nanotechnologia");
         Person student2 = new Student("Tomasz", "Kujoski", "Biotechnologia");
 
-        teacher.showInfo(teacher);
-        student.showInfo(student);
-        student2.showInfo(student2);
+        teacher.showInfo();
+        student.showInfo();
+        student2.showInfo();
     }
 }

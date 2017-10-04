@@ -15,10 +15,9 @@ public class Teacher extends Person {
     }
 
     @Override
-    public void showInfo(Person person) {
-        super.showInfo(person);
-        System.out.println("Nauczyciel: " + person.getName() + " " + person.getLastName() + " Tytuł naukowy: " +
-                teacher.getAcademicDegree());
+    public void showInfo() {
+        super.showInfo();
+        System.out.println(getAcademicDegree());
 
     }
 }

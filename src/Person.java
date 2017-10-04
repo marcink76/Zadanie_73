@@ -23,8 +23,8 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public void showInfo(Person person) {
-        System.out.println(person.getName());
-        System.out.println(person.getLastName());
+    public void showInfo() {
+        System.out.println(getName());
+        System.out.println(getLastName());
     }
 }

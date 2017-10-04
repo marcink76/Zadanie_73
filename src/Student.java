@@ -16,8 +16,8 @@ public class Student extends Person {
     }
 
     @Override
-    public void showInfo(Person person) {
-        //super.showInfo();
-        System.out.println("Student: " + person.getName() + " " + person.getLastName() + " kierunek: " );
+    public void showInfo() {
+        super.showInfo();
+        System.out.println(getFaculty());
     }
 }
