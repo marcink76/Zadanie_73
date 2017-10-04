@@ -25,7 +25,6 @@ public class Person {
 
     public void showInfo(Person person) {
         System.out.println(person.getName());
+        System.out.println(person.getLastName());
     }
-
-
 }

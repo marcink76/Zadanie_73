@@ -1,7 +1,7 @@
 public class Teacher extends Person {
     String academicDegree = "";
 
-    public Teacher(String name, String lastName) {
+    public Teacher(String name, String lastName, String academicDegree) {
         super(name, lastName);
         this.academicDegree = academicDegree;
     }
@@ -16,9 +16,9 @@ public class Teacher extends Person {
 
     @Override
     public void showInfo(Person person) {
-        //super.showInfo(Person);
-        System.out.println("Nauczyciel: " + person.getName() + " " + person.getLastName() + " Tytuł naukowy: " + (
-                (Teacher) person).getAcademicDegree());
+        super.showInfo(person);
+        System.out.println("Nauczyciel: " + person.getName() + " " + person.getLastName() + " Tytuł naukowy: " +
+                teacher.getAcademicDegree());
 
     }
 }
